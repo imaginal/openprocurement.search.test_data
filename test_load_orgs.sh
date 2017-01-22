@@ -2,7 +2,7 @@
 
 CONCURENCY=10
 REQUESTS=1000
-NOT_FOUND=100
+NOT_FOUND=20
 
 /opt/search-tenders/bin/test_load -c $CONCURENCY -n $REQUESTS -z $NOT_FOUND \
 	--query orgsuggest.json \
